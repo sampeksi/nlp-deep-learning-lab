@@ -1,26 +1,30 @@
 # NLP Deep Learning Lab
 
-This repository contains weekly assignments and exercises for an NLP (Natural Language Processing) deep learning course, covering various fundamental and advanced topics in natural language processing using deep learning techniques.
+This repository contains work for an NLP (Natural Language Processing) deep learning, covering various fundamental and advanced topics in natural language processing using deep learning techniques.
 
-## Weekly Assignments
+## Directories
 
-### Week 1 - Sentiment Analysis
+### Sentiment Analysis
 Implementation of sentiment classification models to analyze and predict sentiment in text data.
 
-### Week 2 - Language Modeling
+### Language Modeling
 Building and training language models to predict next tokens and understand sequential patterns in text. Includes work on probabilistic language models.
 
-### Week 3 - Machine Translation
+### Machine Translation
 Neural machine translation implementation with encoder-decoder architectures. Includes vocabulary files for German-English translation (`de_vocab.json`, `en_vocab.json`).
 
-### Week 4 - RAG (Retrieval-Augmented Generation)
+### RAG (Retrieval-Augmented Generation)
 Exploring Retrieval-Augmented Generation with vector databases (Chroma) for enhanced language model responses with external knowledge retrieval.
 
-### Week 5 - Masked Language Modeling (MLM)
+### WMasked Language Modeling (MLM)
 Training and fine-tuning BERT-based masked language models. Includes custom tokenizers and model checkpoints for MLM tasks.
 
-### Week 6 - Named Entity Recognition (NER)
+###  Named Entity Recognition (NER)
 Fine-tuning models for named entity recognition tasks to identify and classify entities in text (persons, organizations, locations, etc.).
+
+### Chatbot
+Conversational AI system integrating Dense Passage Retrieval (DPR), BERT-QA, and T5 for summarization. Retrieves relevant passages from Project Gutenberg books, answers questions, and generates summaries on agricultural topics.
+
 
 ## Technologies
 
